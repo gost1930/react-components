@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route , BrowserRouter as Router , Routes } from 'react-router-dom';
-import {Home , CustomDropDown } from './pages';
+import {Home , Modal , SlideBar } from './pages';
 
 
 const App = () => {
@@ -9,7 +9,8 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/drop-down" element={<CustomDropDown />} />
+        <Route path="/modal" element={<Modal />} />
+        <Route path="/slide" element={<SlideBar />} />
       </Routes>
     </Router>
     </>
