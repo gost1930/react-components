@@ -16,9 +16,4 @@ This repository contains a collection of popular and reusable React components t
 - **Button Component**: A customizable button with various states like hover, active, and disabled.
 - **Card Component**: A flexible card component for displaying content in a clean and organized way.
 
-## Installation
 
-To use the components in your project, simply clone this repository or download the desired component(s).
-
-```bash
-git clone https://github.com/your-username/react-components-collection.git
